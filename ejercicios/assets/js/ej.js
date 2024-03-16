@@ -40,5 +40,7 @@ function prob3(){
 }
 
 function prob4(){
-    
+    let array = document.getElementById("input").value;
+    array = array.split(" ");
+    console.log(array);
 }
