@@ -76,5 +76,17 @@ function prob6(){
 }
 
 function prob7(){
-    
+    let array = document.getElementById("input").value;
+    let res = document.getElementById("res");
+    array = array.split(" ");
+    for (let i = 0; i < array.length-1; i++) {
+        for (let j = i+1; j < array.length; j++) {
+            if (Number(array[i])>Number(array[j])) {
+                let temp = array[i];
+                array[i] = array[j];
+                array[j] = temp;
+            }
+        }
+    }
+    res.value=array;
 }
