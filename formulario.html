@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <marquee><h1>Formulario</h1></marquee>
+    <form method="post" name="formulario"  
+    action="formulario.html" onsubmit="return validar(this)" >
+
+    Nombre:
+    <br>
+    <marquee><input type="text" name="txtnom" size="20"></marquee>
+    <br>
+    Paterno:
+    <br>
+    <marquee><input type="text" name="txtnomp" size="20"></marquee>
+    <br>
+    Materno:
+    <br>
+    <marquee><input type="text" name="txtnomm" size="20"></marquee>
+    <br>
+    Teléfono:
+    <br>
+    <marquee><input type="text" name="tel" size="20"></marquee>
+    <br>
+    Email:
+    <br>
+    <marquee><input type="text" name="email" size="20"></marquee>
+    <br>
+    Estado:
+    <br>
+    <select value="estado">
+        <option value="edodmex">Estado de México</option>
+        <option value="cdmx">Ciudad de México</option>
+        <option value="oax">Oaxaca</option>
+    </select>
+    <br><br><br><br>
+    <marquee>
+        <input type="submit" value="Enviar Datos" name="enviar" >
+        <input type="reset" value="Borrar" name="borrar" >
+    </marquee>
+
+    </form>
+    
+</body>
+</html>
