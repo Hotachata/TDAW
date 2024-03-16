@@ -57,9 +57,12 @@ function prob5(){
         for (let i = 0; i < a.length; i++) {
             c[i] = Number(a[i]) + Number(b[i]);
         }
+        res.value = c;
     } else {
-        alert("Los vectores deben ser del mismo tamaño");
+        res.value="Los vectores deben ser del mismo tamaño";
     }
-    res.value = c;
 }
 
+function prob6(){
+    
+}
