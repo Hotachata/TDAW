@@ -74,3 +74,7 @@ function prob6(){
     med=med/array.length;
     res.value=med;
 }
+
+function prob7(){
+    
+}
