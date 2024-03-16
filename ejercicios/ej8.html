@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="assets/js/ej.js" type="text/javascript"></script>
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <form action="ej8.html" method="get" onsubmit="return">
+            <div>
+                <label for="input">Ingrese un párrafo de texto y nosotros le devolvemos su longitud, el texto en mayúsculas y en minúsculas:</label>
+                <input type="text" id="input" placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mi at enim efficitur aliquet quis sit amet odio."/>
+                <br>
+                <label for="lon">Longitud (letras)</label>
+                <input type="text" id="lon" readonly/>
+                <label for="may">En mayúsculas</label>
+                <input type="text" id="may" readonly/>
+                <label for="min">En minúsculas</label>
+                <input type="text" id="min" readonly/>
+            </div>
+            <div>
+                <input type="button" value="Enviar" class="submit" onclick="prob8()">
+                <input type="reset" value="Borrar">
+            </div>
+        </form>
+        <br>
+        <a href="index.html">Menú</a>
+    </section>
+</body>
+</html>

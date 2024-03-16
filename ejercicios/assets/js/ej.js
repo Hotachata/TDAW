@@ -90,3 +90,13 @@ function prob7(){
     }
     res.value=array;
 }
+
+function prob8(){
+    let texto = document.getElementById("input").value;
+    let lon = document.getElementById("lon");
+    let may = document.getElementById("may");
+    let min = document.getElementById("min");
+    lon.value=texto.length;
+    may.value=texto.toUpperCase();
+    min.value=texto.toLowerCase();
+}
