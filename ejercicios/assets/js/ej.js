@@ -45,3 +45,21 @@ function prob4(){
     array = array.split(" ");
     res.value=Math.max(...array);
 }
+
+function prob5(){
+    let a = document.getElementById("vec1").value;
+    let b = document.getElementById("vec2").value;
+    let res = document.getElementById("res");
+    let c = [];
+    a=a.split(" ");
+    b=b.split(" ");
+    if (a.length==b.length) {
+        for (let i = 0; i < a.length; i++) {
+            c[i] = Number(a[i]) + Number(b[i]);
+        }
+    } else {
+        alert("Los vectores deben ser del mismo tamaño");
+    }
+    res.value = c;
+}
+
