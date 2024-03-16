@@ -41,6 +41,7 @@ function prob3(){
 
 function prob4(){
     let array = document.getElementById("input").value;
+    let res = document.getElementById("res");
     array = array.split(" ");
-    console.log(array);
+    res.value=Math.max(...array);
 }
