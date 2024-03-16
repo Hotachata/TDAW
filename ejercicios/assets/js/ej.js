@@ -64,5 +64,13 @@ function prob5(){
 }
 
 function prob6(){
-    
+    let array = document.getElementById("input").value;
+    let res = document.getElementById("res");
+    let med = 0;
+    array = array.split(" ");
+    for (let i = 0; i < array.length; i++) {
+        med=med+Number(array[i]);
+    }
+    med=med/array.length;
+    res.value=med;
 }
