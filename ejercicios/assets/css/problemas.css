@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    transition: all 0.3s;
+}
+:root {
+    --azul: #bde0fe;
+    --blanco: #f7f7f7;
+}
+body {
+    margin: 0;
+    font-family:Poppins;
+    text-align: justify;
+}
+section{
+    padding: 60px 80px;
+    width: 100%;
+    background: var(--blanco);
+}
+.ej div {
+    text-align: center;
+    display: flex;
+}
+.ej a {
+    background: var(--azul);
+    color: var(--blanco);
+    font-size: 1vw;
+    
+    padding: 20px 30px;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+
+    justify-content: space-evenly;
+    float:left;
+    position:relative;
+    height:100%;
+    width:100%;
+}
+
+.ej a:hover {
+    color: var(--azul);
+    background-color: var(--blanco);
+}
