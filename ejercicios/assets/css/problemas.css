@@ -3,28 +3,32 @@
     transition: all 0.3s;
 }
 :root {
-    --azul: #bde0fe;
+    --verde-f: #5B8E7D;
+    --verde-c: #8CB369;
+    --rojo: #BC4B51;
+    --naranja: #F4A259;
+    --amarillo: #F4E285;
     --blanco: #f7f7f7;
 }
 body {
     margin: 0;
     font-family:Poppins;
     text-align: justify;
+    background: var(--blanco);
 }
 section{
     padding: 60px 80px;
     width: 100%;
-    background: var(--blanco);
 }
 .ej div {
     text-align: center;
     display: flex;
 }
 .ej a {
-    background: var(--azul);
+    background: var(--verde-f);
     color: var(--blanco);
     font-size: 1vw;
-    
+
     padding: 20px 30px;
     cursor: pointer;
     border: none;
@@ -38,6 +42,6 @@ section{
 }
 
 .ej a:hover {
-    color: var(--azul);
-    background-color: var(--blanco);
+    color: var(--blanco);
+    background-color: var(--verde-c);
 }
