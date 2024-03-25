@@ -26,7 +26,22 @@ img {
     width: 80%;
     height: auto;
 }
-
+/* logo */
+.lg td.ins {
+    font-size: 1.8vw;
+    text-align: center;
+}
+.lg td.ins-2 {
+    line-height: 30px;
+    font-size: 1.4vw;
+    text-align: center;
+}
+.lg td.ins-3 {
+    font-size: 1.2vw;
+}
+.lg td.ins-4 {
+    text-align: center;
+}
 /* 
     DATOS PERSONALES
  */
@@ -53,7 +68,7 @@ img {
     NOMBRE Y FIRMA
  */
 .nf .f {
-    font-size: 0.85em;
+    font-size: 0.85rem;
     text-align: center;
     padding: 4px;
     background-color: #23282b62;
