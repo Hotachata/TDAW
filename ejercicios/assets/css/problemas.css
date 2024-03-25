@@ -28,6 +28,9 @@ h1 {
     text-align: center;
     font-size: 2vw;
 }
+div,input,p{
+    font-size: 1vw;
+}
 img {
     width: 30%;
     display: block;
