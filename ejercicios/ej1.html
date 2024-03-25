@@ -8,21 +8,28 @@
     <title>Document</title>
 </head>
 <body>
+    <section class="reg">
+        <a href="ejercicios.html">Menú</a>
+    </section>
+    <br><br><br>
+    <section>
+        <h1>Ejercicio 1</h1>
+    </section>
     <section class="cnt">
         <form action="ej1.html" method="get" onsubmit="return">
             <div>
-                <label for="input">Ingrese un número y nosotros le decimos si es par o impar:</label>
+                <label for="input">Ingrese un número y nosotros le decimos si es par o impar:</label><br>
                 <input type="number" id="input" placeholder="1"/>
                 <br>
+                <label for="res">Resultado:</label><br>
                 <input type="text" id="res" readonly/>
             </div>
+            <br>
             <div>
                 <input type="button" value="Calcular" class="submit" onclick="prob1()">
                 <input type="reset" value="Borrar">
             </div>
         </form>
-        <br>
-        <a href="ejercicios.html">Menú</a>
     </section>
 </body>
 </html>
