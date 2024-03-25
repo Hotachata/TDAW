@@ -36,6 +36,13 @@ img {
     margin-top: 10px;
     margin-bottom:10px;
 }
+.cnt{
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    position: relative;
+    display: flex;
+}
 .ej div {
     text-align: center;
     display: flex;
