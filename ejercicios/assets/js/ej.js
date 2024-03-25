@@ -26,7 +26,7 @@ function prob2(){
 function prob3(){
     let num1 = Number(document.getElementById("num1").value);
     let num2 = Number(document.getElementById("num2").value);
-    let res = document.getElementById("res");
+    let res = document.getElementById("res-2");
     let mult=0;
     let array = [];
 
@@ -49,7 +49,7 @@ function prob4(){
 function prob5(){
     let a = document.getElementById("vec1").value;
     let b = document.getElementById("vec2").value;
-    let res = document.getElementById("res");
+    let res = document.getElementById("res-2");
     let c = [];
     a=a.split(" ");
     b=b.split(" ");
