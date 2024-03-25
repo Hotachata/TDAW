@@ -22,6 +22,10 @@ P {
     text-align: justify;
     text-justify: inter-word;
 }
+img {
+    width: 80%;
+    height: auto;
+}
 
 /* 
     DATOS PERSONALES
