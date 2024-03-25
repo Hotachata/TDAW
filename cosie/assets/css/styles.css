@@ -26,7 +26,7 @@ P {
 /* 
     DATOS PERSONALES
  */
-.dp, .dp th, .dp td , .ep, .ep th, .ep .ca td{
+.dp, .dp th, .dp td , .ep, .ep th, .ep .ca td, .nf, .nf th, .nf td {
     border: 2px solid black;
     border-collapse: collapse;
 }
@@ -50,7 +50,6 @@ P {
  */
 .nf .f {
     font-size: 0.85em;
-    font-weight: bold;
     text-align: center;
     padding: 4px;
     background-color: #23282b62;
