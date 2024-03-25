@@ -9,6 +9,7 @@
     --naranja: #F4A259;
     --amarillo: #F4E285;
     --blanco: #f7f7f7;
+    --negro: #333533;
 }
 body {
     margin: 0;
@@ -16,15 +17,30 @@ body {
     text-align: justify;
     background: var(--blanco);
 }
-section{
-    padding: 60px 80px;
+section {
+    padding-top: 40px;
+    padding-bottom: 10;
+    padding-left: 20px;
+    padding-right: 20px;
     width: 100%;
+}
+h1 {
+    color: var(--negro);
+    text-align: center;
+    font-size: 2vw;
+}
+img {
+    width: 30%;
+    display: block;
+    margin:auto;
+    margin-top: 10px;
+    margin-bottom:10px;
 }
 .ej div {
     text-align: center;
     display: flex;
 }
-.ej a {
+.ej a , .reg a{
     background: var(--verde-f);
     color: var(--blanco);
     font-size: 1vw;
@@ -40,8 +56,11 @@ section{
     height:100%;
     width:100%;
 }
-
-.ej a:hover {
+.reg a {
+    text-align: center;
+    display: flex;
+}
+.ej a:hover , .reg a:hover{
     color: var(--blanco);
     background-color: var(--verde-c);
 }
